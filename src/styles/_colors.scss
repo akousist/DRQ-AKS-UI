@@ -1,0 +1,102 @@
+:root {
+  --color__main-primary: #5aa299;
+  --color__main-secondary: #b7880f;
+
+  --color__text-primary: #82bbb4;
+  --color__text-secondary: #e3ae27;
+
+  --color__emphasize-primary: #c0e6d6;
+  --color__emphasize-secondary: #d8d08e;
+
+  --color__de-emphasize-primary: #2e483d;
+  --color__de-emphasize-secondary: #4b3a25;
+
+  --color__success: #368748;
+  --color__success-light: #28342b;
+
+  --color__warning: #ab5e25;
+  --color__warning-light: #442f20;
+
+  --color__danger: #c83838;
+  --color__danger-light: #481d1d;
+
+  --color__gray-00: #161b0e;
+  --color__gray-01: #21241f;
+  --color__gray-02: #2e312c;
+  --color__gray-03: #4b4e48;
+  --color__gray-04: #777b72;
+  --color__gray-05: #9b9e93;
+  --color__gray-06: #c2c6ba;
+  --color__gray-07: #e5eadb;
+  --color__gray-08: #ffffff;
+
+  --color__logo: linear-gradient(
+    45deg,
+    var(--color__gray-05),
+    var(--color__gray-04),
+    var(--color__gray-03)
+  );
+  --color__label: linear-gradient(
+    to right,
+    var(--color__text-secondary),
+    var(--color__main-primary)
+  );
+  --color__beeswarm: linear-gradient(to bottom, #ff5fef, #8f5fda, #2160c6);
+
+  .backdrop {
+    background-color: var(--color__gray-00);
+    opacity: 0.8;
+  }
+}
+
+/* light theme overrides */
+.light {
+  --color__main-primary: #4bb1a5;
+  --color__main-secondary: #f5b000;
+
+  --color__text-primary: #1e8585;
+  --color__text-secondary: #d68d00;
+
+  --color__emphasize-primary: #072e1d;
+  --color__emphasize-secondary: #3d2807;
+
+  --color__de-emphasize-primary: #d0f9e8;
+  --color__de-emphasize-secondary: #f9f3bd;
+
+  --color__success: #1fae3e;
+  --color__success-light: #d5eed1;
+
+  --color__warning: #e87e1c;
+  --color__warning-light: #f3dbbf;
+
+  --color__danger: #c92626;
+  --color__danger-light: #f9dbe1;
+
+  --color__gray-00: #ffffff;
+  --color__gray-01: #fdf1ee;
+  --color__gray-02: #d8dad3;
+  --color__gray-03: #a5a7a0;
+  --color__gray-04: #737670;
+  --color__gray-05: #4b4d49;
+  --color__gray-06: #2e312c;
+  --color__gray-07: #21241f;
+  --color__gray-08: #0d1108;
+
+  --color__logo: linear-gradient(
+    45deg,
+    #e5a901,
+    var(--color__main-primary),
+    #23617b
+  );
+  --color__label: linear-gradient(
+    to right,
+    var(--color__text-secondary),
+    var(--color__main-primary)
+  );
+  --color__beeswarm: linear-gradient(to bottom, #ff00e5, #8250f2, #00a3ff);
+
+  .backdrop {
+    background-color: var(--color__gray-08);
+    opacity: 0.6;
+  }
+}

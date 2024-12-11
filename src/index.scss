@@ -1,0 +1,39 @@
+@use 'styles/colors';
+@use 'styles/fonts';
+@use 'styles/packages';
+@use 'styles/utils';
+@use 'styles/z-index';
+
+body {
+  margin: 0;
+  font-family: 'Noto Sans', 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell',
+    'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  letter-spacing: 1px;
+
+  ::-webkit-scrollbar {
+    width: 1.5rem;
+  }
+
+  ::-webkit-scrollbar-track {
+    background: var(--color__gray-00);
+    border-radius: 0.5rem;
+  }
+
+  ::-webkit-scrollbar-thumb {
+    border: 0.5rem solid var(--color__gray-00);
+    background: var(--color__gray-03);
+    border-radius: 1rem;
+    height: 2rem; // min-height
+    box-sizing: border-box;
+  }
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New', monospace;
+}
+
+a {
+  color: var(--color__main-secondary);
+}

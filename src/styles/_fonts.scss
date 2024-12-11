@@ -1,0 +1,89 @@
+:root {
+  --font-size__2xl: 3rem;
+  --font-size__xl: 1.5rem;
+  --font-size__lg: 1.25rem;
+  --font-size__md: 1rem;
+  --font-size__sm: 0.875rem;
+  --font-size__xs: 0.8125rem;
+  --font-size__2xs: 0.625rem;
+
+  .text__2xl {
+    font-size: var(--font-size__2xl);
+    font-weight: 300;
+    text-decoration: none;
+  }
+
+  .text__xl {
+    font-size: var(--font-size__xl);
+    font-weight: 900;
+    text-decoration: none;
+  }
+
+  .text__lg {
+    font-size: var(--font-size__lg);
+    font-weight: 700;
+    text-decoration: none;
+  }
+
+  .text__md {
+    font-size: var(--font-size__md);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .text__sm {
+    font-size: var(--font-size__sm);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .text__xs {
+    font-size: var(--font-size__xs);
+    font-weight: 400;
+    text-decoration: none;
+  }
+
+  .text__md--underline {
+    font-size: var(--font-size__md);
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .text__sm--underline {
+    font-size: var(--font-size__sm);
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .text__xs--underline {
+    font-size: var(--font-size__xs);
+    font-weight: 400;
+    text-decoration: underline;
+  }
+
+  .text__md--semibold {
+    font-size: var(--font-size__md);
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .text__md--single-lh {
+    font-size: var(--font-size__md);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .text__sm--single-lh {
+    font-size: var(--font-size__sm);
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+  }
+
+  .text__2xs--single-lh {
+    font-size: var(--font-size__2xs);
+    font-weight: 400;
+    text-decoration: none;
+  }
+}
