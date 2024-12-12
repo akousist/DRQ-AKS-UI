@@ -6,7 +6,9 @@
   --font-size__sm: 0.875rem;
   --font-size__xs: 0.8125rem;
   --font-size__2xs: 0.625rem;
+}
 
+:global {
   .text__2xl {
     font-size: var(--font-size__2xl);
     font-weight: 300;

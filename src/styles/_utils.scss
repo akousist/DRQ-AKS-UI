@@ -1,32 +1,34 @@
-.fade-transition {
-  opacity: 0;
-  transition: opacity 0.3s ease;
-  pointer-events: none;
+:global {
+  .fade-transition {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+    pointer-events: none;
 
-  &.show {
-    opacity: 1;
-    pointer-events: auto;
+    &.show {
+      opacity: 1;
+      pointer-events: auto;
+    }
   }
-}
 
-.truncate {
-  overflow: hidden;
-  text-overflow: ellipsis;
-  white-space: nowrap;
-}
+  .truncate {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
 
-.center {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
+  .center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
 
-.center-x {
-  display: flex;
-  justify-content: center;
-}
+  .center-x {
+    display: flex;
+    justify-content: center;
+  }
 
-.center-y {
-  display: flex;
-  align-items: center;
+  .center-y {
+    display: flex;
+    align-items: center;
+  }
 }
