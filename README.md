@@ -1,30 +1,40 @@
 # akousist-ui
 
-> Made with create-react-library
+## Using the Library
 
-[![NPM](https://img.shields.io/npm/v/akousist-ui.svg)](https://www.npmjs.com/package/akousist-ui) [![JavaScript Style Guide](https://img.shields.io/badge/code_style-standard-brightgreen.svg)](https://standardjs.com)
+Import Components and Styles In your project, you can use the library components and styles like this:
 
-## Install
+package.json
+
+```json
+"akousist-ui": "git+https://github.com/akousist/DRQ-AKS-UI.git",
+```
+
+code
+
+```js
+import { Button } from 'akousist-ui';
+import 'akousist-ui/dist/index.css';
+```
+
+## Updating the Library Version
+
+### **Step 1: Commit all updates**
+
+Before releasing a new version, ensure all changes are committed.
+
+### **Step 2: Release a new version**
+
+Use the following command to create a new release and generate a changelog:
 
 ```bash
-npm install --save akousist-ui
+yarn release
 ```
 
-## Usage
+### **Step 3: Upgrade the library in your project**
 
-```tsx
-import React, { Component } from 'react'
+Update the library to the latest version in your project:
 
-import MyComponent from 'akousist-ui'
-import 'akousist-ui/dist/index.css'
-
-class Example extends Component {
-  render() {
-    return <MyComponent />
-  }
-}
+```bash
+yarn upgrade akousist-ui
 ```
-
-## License
-
-MIT © [](https://github.com/)
