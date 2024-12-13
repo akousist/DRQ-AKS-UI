@@ -6,4 +6,5 @@ export interface ButtonProps extends DetailedHTMLProps<ButtonHTMLAttributes<HTML
     className?: string;
     icon?: ElementType;
 }
-export declare const Button: React.FC<ButtonProps>;
+declare const Button: React.FC<ButtonProps>;
+export default Button;
