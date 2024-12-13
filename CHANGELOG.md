@@ -4,10 +4,9 @@ All notable changes to this project will be documented in this file. See [standa
 
 ## [1.2.0](https://github.com/akousist/DRQ-AKS-UI/compare/v1.1.1...v1.2.0) (2024-12-13)
 
-
 ### Features
 
-* update import && add pre-commit ([8183c41](https://github.com/akousist/DRQ-AKS-UI/commit/8183c41fa05e31346aa90d24bdf1106c0eebbc75))
+- update import && add pre-commit ([8183c41](https://github.com/akousist/DRQ-AKS-UI/commit/8183c41fa05e31346aa90d24bdf1106c0eebbc75))
 
 ### [1.1.1](https://github.com/akousist/DRQ-AKS-UI/compare/v1.1.0...v1.1.1) (2024-12-13)
 

@@ -17,7 +17,7 @@ export interface ButtonProps
   icon?: ElementType;
 }
 
-const Button: React.FC<ButtonProps> = ({
+export const Button: React.FC<ButtonProps> = ({
   size = 'md',
   theme = 'primary',
   outline = false,
@@ -38,5 +38,3 @@ const Button: React.FC<ButtonProps> = ({
     {props.children}
   </button>
 );
-
-export default Button;
