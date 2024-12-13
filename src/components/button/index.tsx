@@ -1,5 +1,10 @@
 import React, { ButtonHTMLAttributes, DetailedHTMLProps, ElementType } from 'react';
 
+// Styles
+import classNames from 'classnames/bind';
+import styles from './index.scss';
+const cx = classNames.bind(styles);
+
 export interface ButtonProps
   extends DetailedHTMLProps<
     ButtonHTMLAttributes<HTMLButtonElement>,
@@ -12,12 +17,7 @@ export interface ButtonProps
   icon?: ElementType;
 }
 
-// Styles
-import classNames from 'classnames/bind';
-import styles from './index.scss';
-const cx = classNames.bind(styles);
-
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   size = 'md',
   theme = 'primary',
   outline = false,
@@ -38,3 +38,5 @@ export const Button: React.FC<ButtonProps> = ({
     {props.children}
   </button>
 );
+
+export default Button;
