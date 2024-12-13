@@ -2,6 +2,13 @@
 
 All notable changes to this project will be documented in this file. See [standard-version](https://github.com/conventional-changelog/standard-version) for commit guidelines.
 
+## [1.3.0](https://github.com/akousist/DRQ-AKS-UI/compare/v1.2.0...v1.3.0) (2024-12-13)
+
+
+### Features
+
+* update import ([4ea33f2](https://github.com/akousist/DRQ-AKS-UI/commit/4ea33f23ac2d7be066633617edb487582c52f609))
+
 ## [1.2.0](https://github.com/akousist/DRQ-AKS-UI/compare/v1.1.1...v1.2.0) (2024-12-13)
 
 ### Features
